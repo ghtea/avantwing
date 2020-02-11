@@ -7,7 +7,7 @@ window.onload = function(){
           
           class App extends React.Component{
                     render(){
-                              return React.createElement('div', null, 'Todo App을 만들자!');
+                         return React.createElement('div', null, 'Todo App을 만들자!');
                     }
           };
           
