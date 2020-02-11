@@ -14,8 +14,8 @@ window.onload = function(){
           ReactDOM.render(React.createElement(Greetings, { name : 'Chris' }),
                     document.getElementById('root')
           );
-          ReacrDOM.render(React.createElement(App),
-                    document.getElementById('root2')
+          ReactDOM.render(React.createElement(App),
+                    document.getElementById('root')
           );
 };
         
