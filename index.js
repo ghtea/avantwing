@@ -13,7 +13,7 @@ window.onload = function(){
                     document.getElementById('root')
           );
           ReacrDOM.render(React.createElement(App),
-                    document.getElementById('root')
+                    document.getElementById('root2')
           );
 };
         
