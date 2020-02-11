@@ -15,7 +15,7 @@ window.onload = function(){
                     document.getElementById('root')
           );
           ReactDOM.render(React.createElement(App),
-                    document.getElementById('root')
+                    document.getElementById('root2')
           );
 };
         
