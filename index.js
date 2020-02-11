@@ -6,7 +6,7 @@ window.onload = function(){
           }
           
           const App = () => {
-                    return <div> Todo App을 만들자! </div>;
+                    return React.createElement('div', null, 'Todo App을 만들자!');
           }
           
           ReactDOM.render(React.createElement(Greetings, { name : 'Chris' }),
