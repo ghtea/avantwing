@@ -5,15 +5,17 @@ window.onload = function(){
                     }
           };
           
-          const App = () => {
-                    return React.createElement('div', null, 'Todo App을 만들자!');
+          class App extends React.Component{
+                    render(){
+                         return React.createElement('div', null, 'Todo App을 만들자!');
+                    }
           };
           
           ReactDOM.render(React.createElement(Greetings, { name : 'Chris' }),
                     document.getElementById('root')
           );
           ReactDOM.render(React.createElement(App),
-                    document.getElementById('root')
+                    document.getElementById('root2')
           );
 };
         
