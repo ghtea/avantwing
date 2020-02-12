@@ -12,8 +12,10 @@ window.onload = function(){
           ReactDOM.render(React.createElement(Greetings, { name : 'Chris' }),
                     document.getElementById('root')
           );
+          
+          /* i can't put below at same place(root)*/
           ReactDOM.render(React.createElement(App),
-                    document.getElementById('root')
+                    document.getElementById('root2')
           );
 };
         
