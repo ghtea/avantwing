@@ -7,14 +7,14 @@ window.onload = function(){
           
           const TodoTemplate = ({children}) => {
                     return (
-                              <div className="TodoTemplate">
-                                   <div className = "app-title">일정 관리</div>
-                                   <div className = "content">{children}</div>
-                              </div>
+                         React.createElement('div', {className:"TodoTemplate"}, 'Todo'
+                              React.createElement('div', {className:"app-title"}, '일정 관리'),
+                              React.createElement('div', {className:"content"}, children)
+                                   
+                         )
                     );
           };
           
-          }
           
           
           const App = () => {
