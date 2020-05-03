@@ -38,19 +38,40 @@ a {
 }
 
 .top {
-  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
 }
 
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
 .title {
+
   font-size: 2.5rem;
+  letter-spacing: -2px;
+  
   /*
   font-family: 'Titillium Web', sans-serif;*/
-  
   
   font-family: 'Merriweather Sans', sans-serif; 
   
   font-weight: 700;
   font-style: italic;
+}
+
+.description {
+  font-size: 1.1rem;
   
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 
